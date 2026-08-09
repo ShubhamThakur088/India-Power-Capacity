@@ -34,4 +34,12 @@ This application is integrated with **Ember Energy** API. It retrieves data from
 5. **Output**
    - Filtered yearly datasets are exported to CSV files.
    - Further optional Azure Blob storage upload workflow is provided.
-   
+
+### Visualization
+1. **Overall Power Generation Visualized**
+   <img width="1214" height="435" alt="image" src="https://github.com/user-attachments/assets/0075bdfa-0bee-4489-bab9-3f4f5547f174" />
+
+2. **Month-on-Month Power Generation Visualized**
+   <img width="1226" height="467" alt="image" src="https://github.com/user-attachments/assets/239b3184-122b-4926-b6eb-4846048721f6" />
+
+
