@@ -1,4 +1,5 @@
 **monthly_power_generation_analysis** project analyses monthly electricity generated data for a given country, source of power and for a given month and date range in the format `YYYY-MM`.
+
 This application is integrated with **Ember Energy** API. It retrieves data from, transforms the data into structured tabular format using `Pandas` Library, filters the selected power source, performs statistical analysis, generates visualizations and exports yearly results into CSV files.
 
 ### Architecture Flow
