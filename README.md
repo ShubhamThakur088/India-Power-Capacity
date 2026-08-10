@@ -28,7 +28,7 @@ Further this project was extended to support the analyses of CO2 emission for a 
      - `entity_code`
      - `date`
      - `series`
-     - 'emissions_mtco2`
+     - `emissions_mtco2`
 
 4. **Expolatory Analysis**
    - Monthly generation is analyzed over time.
