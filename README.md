@@ -2,6 +2,8 @@
 
 This application is integrated with **Ember Energy** API. It retrieves data from, transforms the data into structured tabular format using `Pandas` Library, filters the selected power source, performs statistical analysis, generates visualizations and exports yearly results into CSV files.
 
+Further this project was extended to support the analyses of CO2 emission for a specified source of power. For better understanding both the dataframes, power and emissions, have been merged for better understanding.
+
 ### Architecture Flow
 1. **User Input**
    - Start Date (YYYY-MM)
@@ -15,12 +17,18 @@ This application is integrated with **Ember Energy** API. It retrieves data from
    - `data` portion of the JSON response is converted into Pandas DataFrame.
 
 3. **Data Processing**
-   - Dataset contains the following attributes:
+   - Power generated Dataset contains the following attributes:
      - `entity`
      - `entity_code`
      - `date`
      - `series`
      - `generation_twh`
+   - CO2 emissions Dataset contains the following attributes:
+     - `entity`
+     - `entity_code`
+     - `date`
+     - `series`
+     - 'emissions_mtco2`
 
 4. **Expolatory Analysis**
    - Monthly generation is analyzed over time.
@@ -31,6 +39,7 @@ This application is integrated with **Ember Energy** API. It retrieves data from
        - Variance
        - Standard Deviation
        - Quartile Ranges
+
 5. **Output**
    - Filtered yearly datasets are exported to CSV files.
    - Further optional Azure Blob storage upload workflow is provided.
