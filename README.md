@@ -32,7 +32,7 @@ Further this project was extended to support the analyses of CO2 emission for a 
 
 4. **Exploratory Analysis**
    - Monthly generation is analyzed over time.
-   - Data is grouped conceptually grouped by year for year-wise comparison.
+   - Data is grouped conceptually by year for year-wise comparison.
    - Following statistical measures are employed for each year:
        - Mean
        - Median
