@@ -45,7 +45,7 @@ Further this project was extended to support the analyses of CO2 emission for a 
    - Further optional Azure Blob storage upload workflow is provided.
 
 ### Visualization
-1. **Overall Power Generation Visualized**
+1. **Power Generation Trend Year-on-Year Visualized**
    
    <img width="1214" height="435" alt="image" src="https://github.com/user-attachments/assets/0075bdfa-0bee-4489-bab9-3f4f5547f174" />
 
