@@ -44,7 +44,7 @@ Further this project was extended to support the analyses of CO2 emission for a 
    - Filtered yearly datasets are exported to CSV files.
    - Further optional Azure Blob storage upload workflow is provided.
 
-### Architecture Flow
+### Architecture Flow Diagram
 <img width="1383" height="314" alt="power_analytics_pipeline" src="https://github.com/user-attachments/assets/5b33731c-5cc4-48c8-8125-ff31fc0aa33e" />
 
 
